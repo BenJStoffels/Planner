@@ -1,0 +1,69 @@
+[{
+    "vak": "Wiskunde",
+    "titel": "Oefeningen maken",
+    "beschrijving": "Maak oefeningen f, g, h, i in cursus",
+    "finished": true,
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 18,
+        "hour": 9,
+        "minute": 0
+    }
+}, {
+    "vak": "Wiskunde",
+    "titel": "Oefeningen maken",
+    "beschrijving": "Maak oefening 1 f, g, h en oefening 2 g in boek pagina 185",
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 19,
+        "hour": 9,
+        "minute": 0
+    }
+}, {
+    "vak": "Fysica",
+    "titel": "Maak opdracht + kijk filmpje",
+    "beschrijving": "maak de opdracht en kijk het filmpje, zie ss",
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 19,
+        "hour": 12,
+        "minute": 0
+    }
+}, {
+    "vak": "Latijn",
+    "titel": "Recht",
+    "beschrijving": "bekijk de bundel latijns recht",
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 23,
+        "hour": 16,
+        "minute": 30
+    }
+}, {
+    "vak": "Nederlands",
+    "titel": "Drogredenen",
+    "beschrijving": "maak het hoofdstuk drogredenen af",
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 20,
+        "hour": 16,
+        "minute": 0
+    }
+}, {
+    "vak": "Random",
+    "titel": "Gewoon om te testen",
+    "beschrijving": "Om te testen of het script wel werkt",
+    "finished": true,
+    "tegen": {
+        "year": 2020,
+        "month": 3,
+        "day": 17,
+        "hour": 14,
+        "minute": 30
+    }
+}]
