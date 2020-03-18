@@ -18,7 +18,7 @@ class Planner:
         self.tasks.insert(index, task)
 
     def getNextTasks(self, fromTime, deltaTime):
-        return list(filter(lambda task: task.tegen > fromTime and task.tegen < fromTime + deltaTime, self.tasks))
+        return list(filter(lambda task: task.tegen >= fromTime and task.tegen < fromTime + deltaTime, self.tasks))
 
     def __str__(self):
         result = ""
