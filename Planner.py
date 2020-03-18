@@ -20,9 +20,24 @@ class Planner:
     def getNextTasks(self, fromTime, deltaTime):
         return list(filter(lambda task: task.tegen >= fromTime and task.tegen < fromTime + deltaTime, self.tasks))
 
+    def __iter__(self):
+        self._counter = 0
+        return self
+
+    def __next__(self):
+        try:
+            current_task = self.tasks[self._counter]
+            self._counter += 1
+            if current_task.finished:
+                return next(self)
+
+            return current_task
+        except IndexError:
+            raise StopIteration
+
     def __str__(self):
         result = ""
-        for task in self.tasks:
+        for task in self:
             result += str(task)
             result += "\n"
 
